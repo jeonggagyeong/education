@@ -8,3 +8,6 @@ matplotlib
 scipy
 gower
 streamlit
+streamlit-folium
+folium
+geopandas
