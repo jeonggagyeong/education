@@ -11,3 +11,13 @@ streamlit
 streamlit-folium
 folium
 geopandas
+fastapi
+uvicorn
+pydantic
+streamlit
+pandas
+matplotlib
+seaborn
+koreanize-matplotlib
+gower
+scikit-learn
