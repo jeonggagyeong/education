@@ -31,5 +31,7 @@ Gower 거리 기반 클러스터링을 활용한 지역 맞춤형 정책 자동�
 
 ![Image](https://github.com/user-attachments/assets/5d730d35-52ec-4433-aefb-6ee8abde19d6)
 
+![image](https://github.com/user-attachments/assets/f774f72b-9ccd-4794-b10c-638725f77760)
+
 ![Image](https://github.com/user-attachments/assets/5184d9ac-b2ce-4728-87be-ac18b23c828e)
 
