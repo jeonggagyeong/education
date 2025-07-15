@@ -30,12 +30,7 @@ if uploaded_file:
     st.dataframe(data.head())
 
     selected_columns = [
-        '시도교육청', '위도', '경도', '이용인원', '1학년 학생수', 
-        '1학년 학급당 학생수', '2학년 학생수', '2학년 학급당 학생수', '3학년 학생수', '3학년 학급당 학생수',
-        '4학년 학생수', '4학년 학급당 학생수', '5학년 학생수', '5학년 학급당 학생수', '6학년 학생수',
-        '6학년 학급당 학생수', '특수학급 학생수', '특수학급 학급당 학생수', '학생수(계)',
-        '학급당 학생수(계)', '교사수', '수업교원 1인당 학생수', '다문화자녀수', '2023_총수입금액(백만원)',
-        '교지면적(m)', '학생1인당교지면적', '이용비율'
+        '위도', '경도', '이용인원', '1학년 학급당 학생수', '2학년 학급당 학생수', '3학년 학급당 학생수', '4학년 학급당 학생수', '5학년 학급당 학생수', '6학년 학급당 학생수', '특수학급 학급당 학생수', '다문화자녀수'
     ]
 
     sample_data = data[selected_columns].copy()
@@ -53,8 +48,8 @@ if uploaded_file:
     distance_matrix = compute_gower_matrix(sample_data)
     linked = linkage(distance_matrix, method='average')
 
-    k = st.slider("클러스터 수 (k)", 2, 10, 3)
-    cluster_labels = fcluster(linked, k, criterion='maxclust')
+   
+    cluster_labels = fcluster(linked, 3,criterion='maxclust')
     data['cluster'] = cluster_labels
 
     st.write("### 클러스터별 데이터 수")
