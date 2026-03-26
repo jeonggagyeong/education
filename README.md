@@ -32,9 +32,3 @@ Gower 거리 기반 클러스터링을 활용한 지역 맞춤형 정책 자동�
 
 📬 데이터 변경 시 모델 재학습 → 시각화 → 담당자 자동 이메일 전송까지 자동화
 
-![Image](https://github.com/user-attachments/assets/0f1db76f-b540-48ee-bb20-06d77e287a4f)
-
-
-
-![Image](https://github.com/user-attachments/assets/5184d9ac-b2ce-4728-87be-ac18b23c828e)
-
