@@ -18,10 +18,10 @@ Gower 거리 기반 클러스터링을 활용한 지역 맞춤형 정책 자동�
 
 ### 🛠 기술 스택
 분야	도구
-데이터 수집	공공데이터 포털, Open API, Pandas  
-분석 기법	Gower Distance, Hierarchical Clustering  
-시각화	Streamlit, Matplotlib, Seaborn  
-자동화/배포	Gmail API (자동 메일 발송), Streamlit, render  
+데이터 수집:	공공데이터 포털, Open API, Pandas  
+분석 기법:	Gower Distance, Hierarchical Clustering  
+시각화:	Streamlit, Matplotlib, Seaborn  
+자동화/배포:	Gmail API (자동 메일 발송), Streamlit, render  
 
 ### 🔍 주요 기능
 🎯 혼합형 변수에 대응하는 Gower 거리 기반 클러스터링
